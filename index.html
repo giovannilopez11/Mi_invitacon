@@ -135,14 +135,13 @@ text-align: center;
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
-  /* Añadimos padding lateral para que las letras cursivas no toquen el borde */
   padding: 0 15px; 
 }
 
 .name-main{
 font-family:'Great Vibes',cursive;
-font-size:62px; /* Un poco más grande */
-line-height:1.2; /* Más espacio entre líneas para que no se corten las letras */
+font-size:62px;
+line-height:1.2;
 background:linear-gradient(135deg,#ec4899,#a78bfa,#7abce8,#ec4899);
 background-size:300%;
 -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
@@ -150,27 +149,19 @@ animation:nameColor 5s linear infinite;
 display: block;
 }
 
-/* Vázquez Umegido ahora usa la misma clase y estilo que Regina */
 .name-last{
-font-family:'Great Vibes',cursive; /* MISMA LETRA QUE REGINA */
-font-size:38px; /* Un poco más pequeña que el nombre principal */
+font-family:'Great Vibes',cursive;
+font-size:38px;
 line-height:1.2;
-background:linear-gradient(135deg,#ec4899,#a78bfa,#7abce8,#ec4899); /* MISMO COLOR DE DEGRADADO */
+background:linear-gradient(135deg,#ec4899,#a78bfa,#7abce8,#ec4899);
 background-size:300%;
 -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
 animation:nameColor 5s linear infinite;
 display: block;
-margin-top: -5px; /* Ajuste para que se vea pegadito */
+margin-top: -5px;
 }
 
 @keyframes nameColor{0%{background-position:0%}100%{background-position:300%}}
-
-.name-second{
-font-family:' Great Vibes',cursive;
-font-size:34px;color:#c080d0;margin-bottom:20px;
-text-align: center;
-display: none; /* Ocultamos esto ya que integramos los apellidos arriba */
-}
 
 /* ── ORNAMENT ── */
 .ornament{
@@ -281,7 +272,6 @@ margin-bottom:12px;
 font-family:'Cormorant Garamond',serif;
 font-weight:bold;font-size:18px;color:#5a2060;
 }
-/* La clase artist se oculta ya que quitamos a Danna Paola */
 
 /* ── CONFIRM BTN ── */
 .confirm-btn{
@@ -410,13 +400,6 @@ opacity:0;
   <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#a78bfa" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#c4b5fd" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#7c3aed" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#ddd6fe" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#4c1d95" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#4c1d95"/></svg></div>
   <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#34d399" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#6ee7b7" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#059669" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#a7f3d0" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#064e3b" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#064e3b"/></svg></div>
   <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#60a5fa" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#93c5fd" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#2563eb" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#bfdbfe" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#1e3a8a" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#1e3a8a"/></svg></div>
-  <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#fb7185" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#fda4af" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#e11d48" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#fecdd3" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#881337" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#881337"/></svg></div>
-  <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#e879f9" opacity=".85" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#f0abfc" opacity=".85" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#c026d3" opacity=".8" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#f5d0fe" opacity=".8" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#701a75" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#701a75"/></svg></div>
-  <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#fb923c" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#fdba74" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#ea580c" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#fed7aa" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#7c2d12" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#7c2d12"/></svg></div>
-  <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#22d3ee" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#67e8f9" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#0891b2" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#a5f3fc" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#164e63" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#164e63"/></svg></div>
-  <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#a3e635" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#d9f99d" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#65a30d" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#ecfccb" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#365314" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#365314"/></svg></div>
-  <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#f9a8d4" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#fbcfe8" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#db2777" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#fce7f3" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#9d174d" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#9d174d"/></svg></div>
-  <div class="bf"><svg width="40" height="32" viewBox="0 0 100 80"><ellipse cx="28" cy="28" rx="26" ry="17" fill="#818cf8" opacity=".9" transform="rotate(-30,28,28)"/><ellipse cx="72" cy="28" rx="26" ry="17" fill="#a5b4fc" opacity=".9" transform="rotate(30,72,28)"/><ellipse cx="22" cy="58" rx="19" ry="13" fill="#4f46e5" opacity=".85" transform="rotate(22,22,58)"/><ellipse cx="78" cy="58" rx="19" ry="13" fill="#e0e7ff" opacity=".85" transform="rotate(-22,78,58)"/><ellipse cx="50" cy="42" rx="4" ry="17" fill="#312e81" opacity=".85"/><circle cx="50" cy="24" r="3.5" fill="#312e81"/></svg></div>
 </div>
 
 <div class="card" id="mainCard" style="display:none;">
@@ -473,6 +456,140 @@ opacity:0;
       <circle cx="0" cy="0" r="7" fill="#7c3aed"/>
       <circle cx="0" cy="0" r="3" fill="#4c1d95"/>
     </g>
-    <g transform="translate(150,83)">
-      <ellipse cx="0" cy="-13" rx="5" ry="9" fill="#ede9fe" opacity=".85" transform="rotate(0)"/>
-      <ellipse cx="0" cy="-13" rx="5" ry="9" fill="#ede9fe" opacity=".85" transform="rotate
+    <circle cx="38" cy="58" r="2.5" fill="#fbbf24" opacity=".75"/>
+    <circle cx="402" cy="58" r="2.5" fill="#fbbf24" opacity=".75"/>
+  </svg>
+
+  <div class="inner">
+    <div class="badge-xv fi">
+      <svg viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
+        <defs><radialGradient id="bg2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fde68a"/><stop offset="100%" stop-color="#f59e0b"/></radialGradient></defs>
+        <polygon points="45,2 49,30 58,5 54,33 68,12 57,37 74,20 57,41 78,30 55,46 80,42 55,52 80,56 54,58 74,70 51,62 66,78 45,64 24,78 39,62 16,70 30,58 4,56 29,52 4,42 31,46 12,30 33,41 16,20 33,37 22,12 36,33 32,5 41,30" fill="url(#bg2)" opacity=".88"/>
+        <circle cx="45" cy="45" r="26" fill="white" stroke="#e8c97a" stroke-width="1.5"/>
+        <text x="45" y="40" text-anchor="middle" font-family="Cinzel,serif" font-size="13" font-weight="600" fill="#5a2060">MIS</text>
+        <text x="45" y="57" text-anchor="middle" font-family="Great Vibes,cursive" font-size="22" fill="#ec4899">XV</text>
+      </svg>
+    </div>
+
+    <p class="te-invita fi">♦ Te invita a celebrar ♦</p>
+    
+    <div class="name-container fi">
+      <h1 class="name-main">Regina</h1>
+      <p class="name-last">Vazquez Umegido</p>
+    </div>
+
+    <div class="ornament fi">
+      <div class="ornament-line"></div>
+      <span class="ornament-icon">🌸</span>
+      <div class="ornament-line"></div>
+    </div>
+
+    <div class="fecha-section fi">
+      <p class="fecha-day">Sábado</p>
+      <p class="fecha-num">06</p>
+      <p class="fecha-month">Junio</p>
+      <p class="fecha-year">2025</p>
+    </div>
+
+    <div class="ornament fi">
+      <div class="ornament-line"></div>
+      <span class="ornament-icon">✦</span>
+      <div class="ornament-line"></div>
+    </div>
+
+    <div class="events fi">
+      <div class="event-card">
+        <div class="event-icon">⛪</div>
+        <div class="event-info">
+          <p class="event-type">Ceremonia</p>
+          <p class="event-place">Parroquia de San Miguel Arcángel de Atlautla</p>
+          <p class="event-time">12:00 P.M.</p>
+        </div>
+      </div>
+      <div class="event-card reception">
+        <div class="event-icon">🥂</div>
+        <div class="event-info">
+          <p class="event-type">Recepción</p>
+          <p class="event-place">Segundo callejón de Morelos, Atlautla, Edo. Méx.</p>
+          <p class="event-time">14:00 P.M.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="family-section fi">
+      <p class="family-label">👑 Madre</p>
+      <p class="family-name">Daniela Umegido Martínez</p>
+      <p class="family-role">🌟 Mis Padrinos 🌟</p>
+      <p class="family-name">Yolanda Umegido Madariaga<br>Mauro Valencia Reyes</p>
+    </div>
+
+    <p class="message fi">
+      Un vestido, una fiesta y mil recuerdos por crear.<br>
+      Te espero para celebrar mis 15 años con mucha música, baile y la mejor compañía.
+      <span class="message-quote">¡No puedes faltar!</span>
+    </p>
+
+    <div class="music-player fi" style="text-align: center;">
+      <div class="music-header" style="justify-content: center; margin-bottom: 10px;">
+        <div class="music-info">
+          <div class="music-song">Veo en Ti la Luz</div>
+          </div>
+      </div>
+      
+      <iframe 
+        width="100%" 
+        height="180" 
+        src="https://www.youtube.com/embed/fZSZMp32XaA" 
+        frameborder="0" 
+        style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <button class="confirm-btn fi" onclick="confirmar(this)">✦ Confirmar Asistencia ✦</button>
+
+    <svg viewBox="0 0 440 115" xmlns="http://www.w3.org/2000/svg" style="width:100%;margin-top:28px;">
+      <ellipse cx="86" cy="38" rx="36" ry="15" fill="#86efac" opacity=".5" transform="rotate(38,86,38)"/>
+      <ellipse cx="354" cy="38" rx="36" ry="15" fill="#86efac" opacity=".5" transform="rotate(-38,354,38)"/>
+      <g transform="translate(96,55)">
+        <ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(0)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(60)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(120)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(180)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(240)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(300)"/>
+        <circle cx="0" cy="0" r="18" fill="#c4b5fd" opacity=".68"/><circle cx="0" cy="0" r="12" fill="#8b5cf6" opacity=".84"/><circle cx="0" cy="0" r="5" fill="#4c1d95"/>
+      </g>
+      <g transform="translate(344,55)">
+        <ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(0)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(60)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(120)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(180)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(240)"/><ellipse cx="0" cy="-16" rx="6" ry="11" fill="#ede9fe" opacity=".85" transform="rotate(300)"/>
+        <circle cx="0" cy="0" r="18" fill="#c4b5fd" opacity=".68"/><circle cx="0" cy="0" r="12" fill="#7c3aed" opacity=".84"/><circle cx="0" cy="0" r="5" fill="#4c1d95"/>
+      </g>
+      <g transform="translate(220,48)">
+        <ellipse cx="0" cy="-20" rx="8" ry="13" fill="#f5f3ff" opacity=".9" transform="rotate(0)"/><ellipse cx="0" cy="-20" rx="8" ry="13" fill="#ede9fe" opacity=".84" transform="rotate(72)"/><ellipse cx="0" cy="-20" rx="8" ry="13" fill="#ddd6fe" opacity=".84" transform="rotate(144)"/><ellipse cx="0" cy="-20" rx="8" ry="13" fill="#f5f3ff" opacity=".9" transform="rotate(216)"/><ellipse cx="0" cy="-20" rx="8" ry="13" fill="#ede9fe" opacity=".84" transform="rotate(288)"/>
+        <circle cx="0" cy="0" r="22" fill="#c4b5fd" opacity=".68"/><circle cx="0" cy="0" r="15" fill="#a78bfa" opacity=".84"/><circle cx="0" cy="0" r="7" fill="#7c3aed"/><circle cx="0" cy="0" r="3" fill="#4c1d95"/>
+      </g>
+    </svg>
+
+  </div>
+</div>
+
+<script>
+// ESTA ES LA FUNCIÓN QUE ABRE LA INVITACIÓN
+function enterInvitation() {
+  const splash = document.getElementById('splash');
+  const card   = document.getElementById('mainCard');
+
+  splash.style.transition = 'opacity .8s ease';
+  splash.style.opacity = '0';
+  
+  setTimeout(() => {
+    splash.style.display = 'none';
+    card.style.display   = 'block';
+  }, 800);
+}
+
+function confirmar(btn) {
+  btn.textContent = '✓ ¡Gracias! Te esperamos 🎉';
+  btn.style.background = 'linear-gradient(135deg,#10b981,#059669)';
+  btn.disabled = true;
+}
+</script>
+
+</body>
+</html>
